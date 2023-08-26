@@ -51,3 +51,8 @@ cloudflare 的配置信息，用于更改 cloudflare 的 DNS 解析记录
 | ------------------ | -------------- | ---- |
 | cloudflare_api_token | api_token        | 是   |
 | zone            | 需要更新的域名 | 是   |
+
+3. 运行
+```
+docker compose up -d
+```
