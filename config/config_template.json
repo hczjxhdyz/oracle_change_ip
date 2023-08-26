@@ -1,0 +1,19 @@
+[
+    {
+        "name": "tokyo",
+        "config": {
+            "user": "ocid1.user.oc1..a",
+            "fingerprint" : "67:d7",
+            "tenancy" : "ocid1.tenancy.oc1..",
+            "region" : "ap-tokyo-1",
+            "key_file" : "./config/oci.pem"
+        },
+        "cloudflare":{
+            "cloudflare_api_token": "api-key",
+            "zone": "baidu.com"
+        },
+        "mapping": {
+            "ocid1.vnic.oc1.ap-tokyo-1.ab": "test.baidu.com"
+        }
+    }
+]

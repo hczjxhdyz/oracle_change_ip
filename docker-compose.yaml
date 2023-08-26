@@ -1,0 +1,7 @@
+version: "3"
+services:
+  oracle_change_ip:
+    image: hczjxhdyz/oracle_change_ip
+    restart: always
+    volumes:
+      - ./config:/app/config
